@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
           await tryCastUpvote(postId);
         } else if (voteCaster.classList.toString().match(/post-vote-down/g)) {
           await tryCastDownvote(postId);
-        }
+        }//f
       });
     });
   async function tryCastUpvote (postId) {
