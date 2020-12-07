@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
   Element.prototype.appendChildren = function (...children) {
     children.forEach(child => this.appendChild(child));
   };
-//kk
+//k
   // Enable upvote/downvote buttons
   document.querySelectorAll('.votingbutton').forEach(button => {
     button.addEventListener('click', voter);
